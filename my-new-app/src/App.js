@@ -1,7 +1,10 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/Header';
+
 function App() {
   return (
     <div>
-      <h1>Vamos a la playa !!!</h1>
+      <Header />
     </div>
   );
 }
