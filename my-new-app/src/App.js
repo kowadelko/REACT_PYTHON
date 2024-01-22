@@ -1,7 +1,7 @@
 function App() {
   return (
     <div>
-      <h1>Images Gallery</h1>
+      <h1>Vamos a la playa !!!</h1>
     </div>
   );
 }
