@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
 import Search from './components/Search';
 
+const UNSPLASHED_KEY = process.env.REACT_APP_UNSPLASHED_KEY;
 
 function App() {
   const [word, setWord] = useState('');
