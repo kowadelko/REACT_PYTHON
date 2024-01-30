@@ -11,9 +11,17 @@ function App() {
   const handleSearchSubmit = (e) => {
     e.preventDefault();
     console.log(word);
+    fetch(`https://api.unsplash.com/photos/random/?query=${word}&client_id=${UNSPLASHED_KEY}`)
+      .then((res)  => res.json())
+      .then((data)=> {
+        console.log(data);
+      })
+      .catch((err) => {
+        console.log(err);
+      })
   }
-  
 
+  
   return (
     <div>
       <Header title= "perros salchicha on travel"/>
